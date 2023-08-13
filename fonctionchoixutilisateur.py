@@ -1,5 +1,5 @@
- if demande<number:
-    print("le chiffre que vous avez choisi est plus petit que le chiffre choisi par l'ordinateur")
-    demande=int(input())
+def devinez(demande, number):
+  if demande < number:
+    print("Ecrivez un nombre plus grand")
   else:
-    print("le chiffre que vous avez choisi est plus grand que le chiffre choisi par l'ordinateur")
+    print("Ecrivez un nombre plus petit")
