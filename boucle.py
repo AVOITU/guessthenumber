@@ -1,3 +1,4 @@
 while demande!=number:
-	  demande = int(input())
+	devinez(demande, number)
+	demande = int(input())
 print("vous avez deviné le nombre!")
